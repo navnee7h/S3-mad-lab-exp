@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79C3BC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="145dp"
+        android:minHeight="48dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="43dp"
+        android:layout_toStartOf="@+id/editTextTextPersonName2"
+        android:text="First number"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="93dp"
+        android:layout_toStartOf="@+id/editTextTextPersonName"
+        android:text="Second number"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="17dp"
+        android:layout_toStartOf="@+id/button2"
+        android:background="#D81D1D"
+        android:text="Addition"
+
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/purple_200"
+        android:backgroundTint="#CBC12F2F"
+        android:text="Substraction"
+        android:textColor="#311B92"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="252dp"
+        android:layout_toStartOf="@+id/button4"
+        android:text="Division"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="255dp"
+        android:text="Multiplication"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="174dp"
+        android:text="Result"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="447dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="number"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="512dp"
+        android:ems="10"
+        android:hint="number"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="648dp"
+        android:text="CALCULATOR"
+        android:textColor="#AF1616"
+        android:textColorHighlight="#E4B9B9"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="49dp" />
+</RelativeLayout>
